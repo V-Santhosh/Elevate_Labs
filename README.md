@@ -1,3 +1,3 @@
 # Elevate_Labs
 
-![Example Image](Er Diagram.jpeg)
+![alt text] 
