@@ -133,8 +133,11 @@ ADD phone VARCHAR(15);
 
 RENAME TABLE Department TO Academic_Department;
 
+Truncate table Room_Alloc;
+Drop table Room_Alloc;
+
 SELECT * from Academic_Department
-where budget is not null
+where budget is not null                  // Handing null values
 
 
 
