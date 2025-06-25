@@ -120,25 +120,23 @@ INSERT INTO Room_Alloc (allocation_id, student_id, hostel_id, room_number, alloc
 
 
 ALTER TABLE Student
-CHANGE dob birth_date DATE;
+CHANGE dob birth_date DATE;                         //Rename the column
 
 
 Update Department
 set budget=NULL
-where department_id in (1,3,5);
+where department_id in (1,3,5);                     // indroducing Null values
 
-ALTER TABLE Faculty
+ALTER TABLE Faculty                                     //Introduce a new column
 ADD phone VARCHAR(15);
 
 
-RENAME TABLE Department TO Academic_Department;
+RENAME TABLE Department TO Academic_Department;                // Rename the table
 
-Truncate table Room_Alloc;
-Drop table Room_Alloc;
+DELETE from Academic_Department
+where budget is not null                  // Handing null values BY DELETING NULL ROWS
 
-SELECT * from Academic_Department
-where budget is not null                  // Handing null values
-
-
-
+Truncate table Room_Alloc;                  // empty the table
+Drop table Room_Alloc;                       // delete the table
+ 
 
