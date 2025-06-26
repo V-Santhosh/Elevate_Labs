@@ -1,0 +1,42 @@
+--1. Find all members registered after 2023-01-01.
+SELECT * FROM Member
+where registration_date>'2023-01-01';
+
+--2. Get all books in the "Self-help" or "Psychology" genre.
+
+SELECT * FROM BOOK WHERE
+GENRE like 'Self%' or GENRE like 'Psy%';
+
+--3. Show loans where fine is between 5 and 15.
+SELECT * FROM LOAN WHERE fine between 5 and 15;
+
+--4 Find members who are either inactive or have a "Student" membership.
+SELECT * FROM MEMBER
+WHERE membership_type='Premium' or is_active<>1; 
+
+--5  List of Books which are available in good condition
+select * from book
+where book_condition='Good' and availability_status like 'Avai%';
+
+--6 Latest 5 books published published books
+select * from book
+order by publish_year desc
+Limit 5
+
+--7 count the types of memberships
+select membership_type,count(membership_type) from member
+group by membership_type;
+
+--8 Oldest member who is still active
+select * from member
+where registration_date is not null
+order by registration_date
+Limit 1
+
+--9 List of membersand their loanid who have not returned
+SELECT loan_id,member_id from Loan
+where return_date is not null;
+
+--10 Order the books by reverse of alpabetical order
+SELECT * FROM BOOK
+order by author desc;
