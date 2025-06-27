@@ -1,0 +1,85 @@
+
+--1. Count how many books are available in each genre
+
+SELECT genre, COUNT(*) AS book_count
+FROM Book
+WHERE availability_status = 'Available'
+GROUP BY genre;
+
+--2. Total fines collected per member
+SELECT member_id, SUM(fine) AS total_fine
+FROM Loan
+WHERE returned==1
+GROUP BY member_id;
+
+--3. Number of active members by membership type
+SELECT membership_type, COUNT(*) AS active_members
+FROM Member
+WHERE is_active = 1
+GROUP BY membership_type;
+
+--4 Members who have taken more than 2 loans
+SELECT member_id, COUNT(*) AS total_loans
+FROM Loan
+GROUP BY member_id
+HAVING COUNT(*) > 2;
+
+--5 Members who have paid more than ₹5 total fine
+SELECT member_id, SUM(fine) AS total_fine
+FROM Loan
+GROUP BY member_id
+HAVING SUM(fine) > 5;
+
+--6 Genres that have more than 3 books in the library
+SELECT genre, COUNT(*) AS book_count
+FROM Book
+GROUP BY genre
+HAVING COUNT(*) > 3;
+
+
+--7 Branches that have more than 4 active members
+SELECT branch_id, COUNT(*) AS active_member_count
+FROM Member
+WHERE is_active = 1
+GROUP BY branch_id
+HAVING COUNT(*) > 2;
+
+--8 Count how many books exist per condition (Good, Fair, Damaged)
+SELECT book_condition, COUNT(*) AS total_books
+FROM Book
+GROUP BY book_condition
+HAVING COUNT(*) > 2;
+
+--9 Count how many distinct books each member borrowed (using COUNT DISTINCT)
+SELECT member_id, COUNT(DISTINCT book_id) AS unique_books_borrowed
+FROM Loan
+GROUP BY member_id;
+
+--10 Earliest loan date per member (using MIN)
+
+SELECT member_id, MIN(loan_date) AS first_loan_date
+FROM Loan
+GROUP BY member_id;
+    
+--11 Latest return date per book (using MAX)
+SELECT book_id, MAX(return_date) AS last_returned_on
+FROM Loan
+GROUP BY book_id;
+
+
+
+
+--9 Show branches with more than 3 registered members
+SELECT branch_id, COUNT(*) AS member_count
+FROM Member
+GROUP BY branch_id
+HAVING COUNT(*) > 3;
+
+
+
+
+
+
+
+
+
