@@ -69,14 +69,6 @@ GROUP BY book_id;
 
 
 
---9 Show branches with more than 3 registered members
-SELECT branch_id, COUNT(*) AS member_count
-FROM Member
-GROUP BY branch_id
-HAVING COUNT(*) > 3;
-
-
-
 
 
 
