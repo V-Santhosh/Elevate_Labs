@@ -1,5 +1,8 @@
 
-Performed DDL AND DML queries.
+1. Performed DDL AND DML queries.
+
+Tool Used:
+DB Fiddle
 
 
 With Null values:
