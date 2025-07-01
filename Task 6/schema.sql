@@ -5,7 +5,7 @@ CREATE TABLE Department (
 );
 
 -- Step 2: Insert 20 departments
-INSERT INTO Department (dept_id, dept_name, location) VALUES
+INSERT INTO Department (dept_id, dept_name, location) VALUES 
 (1, 'Admin', 'Bangalore'),
 (2, 'HR', 'Bangalore'),
 (3, 'IT', 'Bangalore'),
@@ -25,7 +25,8 @@ INSERT INTO Department (dept_id, dept_name, location) VALUES
 (17, 'Research', 'Chennai'),
 (18, 'Training', 'Mumbai'),
 (19, 'Security', 'Pune'),
-(20, 'Content', 'Kolkata');
+(20, 'Content', 'Kolkata')
+(21, 'Other', NULL);
 
 
 
@@ -92,5 +93,29 @@ INSERT INTO Employee (emp_id, emp_name, dept_name, salary) VALUES
 (150, 'Karthik', 'IT', 8200);
 
 
+CREATE TABLE Sales (
+    store_id INTEGER,
+    store_name VARCHAR(50),
+    product_name VARCHAR(50),
+    quantity INTEGER,
+    price INTEGER
+);
 
+
+INSERT INTO Sales (store_id, store_name, product_name, quantity, price) VALUES
+(1, 'Apple Store 1', 'iPhone 13 Pro', 1, 1000),
+(1, 'Apple Store 1', 'MacBook Pro 14', 3, 6000),
+(1, 'Apple Store 1', 'AirPods Pro', 2, 500),
+(2, 'Apple Store 2', 'iPhone 13 Pro', 2, 2000),
+(2, 'Apple Store 2', 'iPad Air', 1, 1200),
+(3, 'Apple Store 3', 'Apple Watch SE', 4, 1200),
+(1, 'Apple Store 1', 'Magic Keyboard', 1, 300),
+(3, 'Apple Store 3', 'Mac Mini M2', 1, 800),
+(2, 'Apple Store 2', 'AirPods Max', 2, 1100),
+(3, 'Apple Store 3', 'iPhone 14', 2, 1800),
+(1, 'Apple Store 1', 'iPad Pro', 1, 1400),
+(2, 'Apple Store 2', 'Magic Mouse', 3, 250),
+(3, 'Apple Store 3', 'Apple Pencil', 2, 300),
+(1, 'Apple Store 1', 'MacBook Air M1', 1, 900),
+(2, 'Apple Store 2', 'iMac 24"', 1, 1600);
 
