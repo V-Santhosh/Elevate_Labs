@@ -1,6 +1,6 @@
 # Elevate_Labs
 
-#1 month Sql learning 
+# 1 month Sql learning 
 
 # 🗂️ SQL Practice & Learning Journey
 
