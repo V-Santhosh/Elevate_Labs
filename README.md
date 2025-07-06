@@ -2,18 +2,28 @@
 
 1 month Sql learning 
 
-🧠 Skills I’ll Practice:
-Core SQL Syntax and Commands (SELECT, JOIN, GROUP BY, etc.)
-Writing and Optimizing Complex Queries
-Database Design and Normalization
-Stored Procedures, Views, and Triggers (Intro)
-Data Filtering, Sorting, and Aggregation
-Understanding Relational Database Concepts
-Basic Data Modeling and Schema Design
+🧠 What I’m Learning
+Sharpening my database mastery through hands-on practice with:
 
-🔧 Tools & Technologies:
-MySQL / PostgreSQL / SQL Server
-DBMS Tools (MySQL Workbench, pgAdmin, etc.)
-SQL Query Editors
-Git, GitHub (for script versioning)
-Optional: Basics of Python/Excel for Data Handling
+🔍 Core SQL Commands — SELECT, JOIN, GROUP BY, WHERE, and more
+
+🧩 Complex Query Writing — Nested queries, subqueries, and optimization
+
+🏗️ Database Design & Normalization — Building efficient, scalable schemas
+
+⚙️ Stored Procedures, Views & Triggers — Intro to automation & abstraction
+
+🔎 Data Filtering & Aggregation — From raw rows to meaningful insights
+
+🧬 Relational Concepts & Data Modeling — The backbone of any DB system
+
+🔧 Tools & Technologies
+🛠️ Databases: MySQL · PostgreSQL · SQL Server
+
+🧰 DBMS Tools: MySQL Workbench · pgAdmin · SSMS
+
+✍️ Query Editors: Standalone and built-in editors
+
+🌱 Version Control: Git & GitHub for tracking query evolution
+
+🧮 Bonus: Light use of Python or Excel for data inspection and cleanup
