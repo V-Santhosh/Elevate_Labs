@@ -11,7 +11,6 @@ I'm diving into the world of databases and using this repo to document my learni
 ### Key Areas I'm Focusing On:
 
 - ✅ Core SQL syntax: `SELECT`, `JOIN`, `GROUP BY`, `WHERE`, etc.
-- ✅ Writing and optimizing complex queries
 - ✅ Database design and normalization
 - ✅ Intro to stored procedures, views, and triggers
 - ✅ Filtering, sorting, and aggregating data
@@ -24,8 +23,8 @@ I'm diving into the world of databases and using this repo to document my learni
 
 Here are the tools I'm using along the way:
 
-- 🛠️ **Databases**: MySQL · PostgreSQL · SQL Server
-- 💻 **DB Tools**: MySQL Workbench · pgAdmin · SQL Server Management Studio
+- 🛠️ **Databases**: MySQL · SQL Server
+- 💻 **DB Tools**: MySQL Workbench · SQL Server Management Studio
 - ✍️ **SQL Editors**: GUI-based tools and built-in editors
 - 🌿 **Version Control**: Git & GitHub for tracking my progress
 - 🧪 **Extras**: Python or Excel occasionally for data handling
@@ -38,6 +37,4 @@ This repository includes:
 - Practice queries and sample exercises
 - Notes and code snippets from my learning
 - Mini-projects or case studies (in-progress or upcoming)
-
-Feel free to explore, fork, or suggest improvements!
 
