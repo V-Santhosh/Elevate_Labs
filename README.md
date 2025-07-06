@@ -3,27 +3,32 @@
 1 month Sql learning 
 
 🧠 What I’m Learning
-Sharpening my database mastery through hands-on practice with:
 
-🔍 Core SQL Commands — SELECT, JOIN, GROUP BY, WHERE, and more
+I’m diving deep into the world of databases and using this space to practice and document what I learn along the way.
 
-🧩 Complex Query Writing — Nested queries, subqueries, and optimization
+Things I'm focusing on:
 
-🏗️ Database Design & Normalization — Building efficient, scalable schemas
+Getting comfortable with everyday SQL commands like SELECT, JOIN, GROUP BY, etc.
 
-⚙️ Stored Procedures, Views & Triggers — Intro to automation & abstraction
+Writing and improving complex queries that actually solve real problems
 
-🔎 Data Filtering & Aggregation — From raw rows to meaningful insights
+Learning how to design clean, efficient databases through normalization
 
-🧬 Relational Concepts & Data Modeling — The backbone of any DB system
+Getting a feel for stored procedures, views, and triggers — just the basics for now
 
-🔧 Tools & Technologies
-🛠️ Databases: MySQL · PostgreSQL · SQL Server
+Practicing how to filter, sort, and summarize data to find insights
 
-🧰 DBMS Tools: MySQL Workbench · pgAdmin · SSMS
+Understanding how relational databases work behind the scenes
 
-✍️ Query Editors: Standalone and built-in editors
+Sketching out simple data models and schema designs
 
-🌱 Version Control: Git & GitHub for tracking query evolution
+🔧 Tools I'm Using
+Databases: MySQL, PostgreSQL, SQL Server
 
-🧮 Bonus: Light use of Python or Excel for data inspection and cleanup
+Interfaces: MySQL Workbench, pgAdmin, or whatever gets the job done
+
+Writing queries in SQL editors, and keeping things organized with Git & GitHub
+
+Occasionally using Python or Excel for quick data checks or handling
+
+
